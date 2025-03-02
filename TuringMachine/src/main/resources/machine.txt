@@ -1,0 +1,7 @@
+start: state_0
+accept: state_ac
+reject: state_rj
+blank: _
+state_0 0 -> state_0 1 >
+state_0 1 -> state_0 0 >
+state_0 _ -> state_ac _ ^
